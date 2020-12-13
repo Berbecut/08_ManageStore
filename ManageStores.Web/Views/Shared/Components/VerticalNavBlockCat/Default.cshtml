@@ -1,0 +1,28 @@
+﻿@model CompaniesViewModel
+
+@foreach (var company in Model.ListOfCompanies)
+{<div>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#@company.Name" aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fa fa-list-alt" aria-hidden="true"></i>
+            @company.Name
+        </a>
+
+        <div id="@company.Name" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Stores:</h6>
+
+                @foreach (var store in company.Stores)
+                {
+
+                    <a class="collapse-item dropdown-item m-0 font-weight-bold text-info" asp-controller="Store" asp-action="Edit" asp-route-id="@store.Id">
+                        <span>@store.Name</span>
+                    </a>
+                }
+                <div class="dropdown-divider"></div>
+                <a asp-controller="Store" asp-action="Index" asp-route-companyid="@company.Id" class="dropdown-item font-weight-bold text-success">All stores</a>
+
+            </div>
+        </div>
+
+    </div>
+}

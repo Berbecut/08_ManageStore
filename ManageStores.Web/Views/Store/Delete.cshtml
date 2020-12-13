@@ -1,0 +1,50 @@
+﻿@model ManageStores.Core.Models.Store
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <br />
+    <h2>Delete store</h2>
+    <h5>Are you sure you want to delete this store?</h5>
+    <br />
+    <div>
+        <table class="table table-bordered">
+
+            <thead class="text-info">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Zip</th>
+                    <th>Country</th>
+                    <th>Longitude</th>
+                    <th>Latitude</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tbody>
+                <tr>
+                    <td>@Model.Name</td>
+                    <td>@Model.Address</td>
+                    <td>@Model.City</td>
+                    <td>@Model.Zip</td>
+                    <td>@Model.Country</td>
+                    <td>@Model.Longitude</td>
+                    <td>@Model.Latitude</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-group">
+        <form asp-action="DeleteToConfirm">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            &nbsp;&nbsp;
+            <a asp-action="Index" class="btn btn-warning">Cancel</a>
+        </form>
+    </div>
+</div>

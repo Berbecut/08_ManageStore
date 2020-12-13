@@ -1,0 +1,150 @@
+﻿@model ManageStores.Infrastructure.ViewModels.StoresViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid">
+
+    <div class="card shadow mb-4">
+
+        <div class="card-header py-3">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h4 class="h4 mb-0 text-gray-800">All stores</h4>
+
+                <a class="btn btn-info btn btn-primary align-items-center float-right"
+                   asp-controller="Store" asp-action="Create" method="get"
+                   title="Add a new store into this company">Create new store</a>
+            </div>
+
+
+            <div class="card-body">
+                <div class="table-responsive table-striped table-condensed">
+                    <table class="table table-bordered" cellspacing="0">
+                        <thead class="text-center m-0 font-weight-bold text-info">
+                            <tr>
+                                <th class="text-center text-info">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="checkAll">
+                                        <label class="custom-control-label" for="checkAll">Select all</label>
+                                    </div>
+                                </th>
+
+                                <th>Store name</th>
+                                <th>Address</th>
+                                <th>City</th>
+                                <th>Zip</th>
+                                <th>Country</th>
+                                <th>Longitude</th>
+                                <th>Latitude</th>
+                                <th>Company name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            @if (Model.AllStores.Any())
+                            {
+                                @foreach (var store in Model.AllStores)
+                                {
+                                    <tr class="text-center">
+                                        <td class="custom-checkbox text-center">
+                                            <input type="checkbox" class="form-check-input flo" value="@store.Id">
+                                        </td>
+                                        <td>@store.Name</td>
+                                        <td>@store.Address</td>
+                                        <td>@store.City</td>
+                                        <td>@store.Zip</td>
+                                        <td>@store.Country</td>
+                                        <td>@store.Longitude</td>
+                                        <td>@store.Latitude</td>
+                                        <td>@store.Company.Name</td>
+
+                                        <td>
+                                            <a class="btn btn-warning align-items-center" asp-controller="Store" asp-action="Edit" asp-route-id="@store.Id" title="Edit this item" method="post">Edit</a>
+                                            <a class="btn btn-danger align-items-center" asp-controller="Store" asp-action="Delete" asp-route-id="@store.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="10">No stores. Please add a store !</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    @if (Model.AllStores.Any()) { 
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form id="bulkDeleteForm" asp-controller="Store" asp-action="DeleteBulk" onsubmit="return confirm('Do you want to delete all stores ?')" method="post">
+                                        <input type="hidden" id="storeIdToDelete" name="storeIdToDelete" value="" />
+                                        <button type="submit" class="btn btn-danger" id="deleteBulk">Delete selected stores</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+
+        //Delete Store
+        $(document).on("click", ".open-DeleteStoreModal", function () {
+            var DeleteStoreId = $(this).data('id');
+            $(".modal-body #DeleteStoreId").val(DeleteStoreId);
+        });
+
+
+        //DeleteBulk
+        $(document).ready(function () {
+
+            $('#checkAll').click(function () {
+                $('input:checkbox').prop('checked', this.checked);
+            });
+
+            $("#deleteBulk").on('click', function (e) {
+                getValueUsingParentTag();
+            });
+
+            function getValueUsingParentTag() {
+                var chkArray = [];
+
+                /* look for all checkboxes in Store/Index.cshtml and check if they are checked, and then take their values and push into an array */
+                $("input.flo:checked").each(function () {
+                    chkArray.push($(this).val());
+                });
+
+                /* join the array separated by the comma */
+                var selected;
+                selected = chkArray.join(',');
+
+                /* add selected value to hidden fields if it contains values */
+                if (selected.length > 0) {
+                    $("#storeIdToDelete").val(selected);
+                    //console.log(selected);
+                    var value = $("#storeIdToDelete").val();
+                }
+                else {
+                    alert("Select at least one store");
+                }
+            }
+        });
+
+
+    </script>
+}

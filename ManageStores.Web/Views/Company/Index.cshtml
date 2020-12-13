@@ -1,0 +1,146 @@
+﻿@model CompaniesViewModel
+
+        @{
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+
+
+        <div class="container-fluid">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h4 class="h4 mb-0 text-gray-800">All companies</h4>
+                        <a class="btn btn-info btn-md btn-primary align-items-center float-right"
+                           asp-controller="Company" asp-action="Create" method="get">
+                            Create Company
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card-body">
+                    <div class="table-responsive table-striped table-condensed">
+                        <table class="table table-bordered" cellspacing="0">
+                            <thead class="m-0 font-weight-bold text-info">
+                                <tr>
+                                    <th class="text-center text-info">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="checkAll">
+                                            <label class="custom-control-label" for="checkAll">Select all</label>
+                                        </div>
+                                    </th>
+
+                                    <th class="text-center">Name</th>
+                                    <th class="text-center">Organization Number</th>
+                                    <th>Notes</th>
+                                    <th class="text-center">Actions</th>
+                                    <th>Stores owned by company</th>
+                                    <th class="text-center">New store</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @if (Model.ListOfCompanies.Any())
+                                {
+                                    @foreach (var cat in Model.ListOfCompanies)
+                                    {
+                                        <tr>
+                                            <td class="custom-checkbox text-center">
+                                                <input type="checkbox" class="form-check-input flo" value="@cat.Id">
+                                            </td>
+                                            <td class="text-center">@cat.Name</td>
+                                            <td class="text-center">@cat.OrganizationNumber</td>
+                                            <td>@cat.Notes</td>
+
+                                            <td class="text-center">
+                                                <a class="btn btn-warning align-items-center" asp-controller="Company" asp-action="Edit" asp-route-id="@cat.Id" title="Edit this item" method="post">Edit</a>
+                                                <a class="btn btn-danger align-items-center" asp-controller="Company" asp-action="Delete" asp-route-id="@cat.Id">Delete</a>
+                                            </td>
+                                            <td>
+                                                @foreach (var store in cat.Stores)
+                                                {
+                                                    <li class="font-weight-bold text-info">
+                                                        <a asp-controller="Store" asp-action="Edit" asp-route-id="@store.Id" class="font-weight-bold text-info">
+                                                            @store.Name
+                                                        </a>
+                                                    </li>
+                                                }
+                                            </td>
+                                            <td class="text-center">
+                                                <a class="btn btn-info btn btn-primary align-items-center"
+                                                   asp-controller="Store" asp-action="CreateStoreInCompanyPage" asp-route-id="@cat.Id" method="get"
+                                                   title="Add a new store into this company">Create</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="7">No companies. Start to create companies !</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        @if (Model.ListOfCompanies.Any()) { 
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <form id="bulkDeleteForm" asp-controller="Company" asp-action="DeleteBulk" onsubmit="return confirm('Do you want to delete all companies ?')" method="post">
+                                            <input type="hidden" id="companyIdToDelete" name="companyIdToDelete" value="" />
+                                            <button type="submit" class="btn btn-danger" id="deleteBulk">Delete selected companies</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        @section Scripts {
+            <script>
+
+                //DeleteBulk
+                $(document).ready(function () {
+
+                    $('#checkAll').click(function () {
+                        $('input:checkbox').prop('checked', this.checked);
+                    });
+
+                    $("#deleteBulk").on('click', function (e) {
+                        getValueUsingParentTag();
+                    });
+
+                    function getValueUsingParentTag() {
+                        var chkArray = [];
+
+                        /* look for all checkboxes in Company/Index.cshtml and check if they are checked, and then take their values and push into an array */
+                        $("input.flo:checked").each(function () {
+                            chkArray.push($(this).val());
+                        });
+
+                        /* join the array separated by the comma */
+                        var selected;
+                        selected = chkArray.join(',');
+
+                        /* add selected value to hidden fields if it contains values */
+                        if (selected.length > 0) {
+                            $("#companyIdToDelete").val(selected);
+                            //console.log(selected);
+                            var value = $("#companyIdToDelete").val();
+                        }
+                        else {
+                            alert("Select at least one company");
+                        }
+                    }
+                });
+
+            </script>
+        }

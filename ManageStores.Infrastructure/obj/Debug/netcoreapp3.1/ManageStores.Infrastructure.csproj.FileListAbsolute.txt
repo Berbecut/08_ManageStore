@@ -1,0 +1,75 @@
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.dll
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfo.cs
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.deps.json
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.json
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.dev.json
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.pdb
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CopyComplete
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\Trials\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.genruntimeconfig.cache
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.deps.json
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.json
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.dev.json
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.dll
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.pdb
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfo.cs
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CopyComplete
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\Consid\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.genruntimeconfig.cache
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.deps.json
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.json
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.dev.json
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.dll
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfo.cs
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CopyComplete
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\duminica ora 1230\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.genruntimeconfig.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.deps.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.dev.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfo.cs
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CopyComplete
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.genruntimeconfig.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.deps.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.runtimeconfig.dev.json
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\bin\Debug\netcoreapp3.1\ManageStores.Core.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.AssemblyInfo.cs
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.csproj.CopyComplete
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.dll
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.pdb
+C:\Users\Mihaela\Desktop\xxxxxx\ManageStores King\ManageStores\ManageStores.Infrastructure\obj\Debug\netcoreapp3.1\ManageStores.Infrastructure.genruntimeconfig.cache
